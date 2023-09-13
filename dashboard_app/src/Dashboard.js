@@ -51,7 +51,7 @@ class Dashboard extends Component {
     return (
       <div>
         <h1>System Dashboard</h1>
-        <Line
+        <LinearScale
           data={this.state.chartData}
           options={{
             maintainAspectRatio: false,
